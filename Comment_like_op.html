@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+
+    <script src="Comment_like_op.js"></script>
+  </head>
+  <body>
+    <div style="height: 10vh;background-color:yellowgreen;"><marquee style="color: white; font-family: cursive;font-size: large;">You Want to Say something!!!</marquee></div>
+
+    <div style="margin-top: 10px; margin-bottom: 10px;">
+      <input
+        type="text"
+        id="Id1"
+        placeholder="comment"
+      />
+    </div>
+
+    <div>
+      <button id="btnid" style="background-color: blue;" onclick="like()">Like 1</button>
+
+      <button onclick="commentHere()">Comment Now</button>
+    </div>
+    <div id="commentBox">
+      <div
+        style="display: flex; justify-content: space-between;"
+        id="referenceCommentId"
+      >
+        <div>Sample Comment</div>
+        <button style="background-color: red;">DELETE</button>
+      </div>
+    </div>
+  </body>
+</html>
